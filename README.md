@@ -2,6 +2,7 @@
 
 https://raspberry-pi.fr/raspberry-pi-sans-ecran-sans-clavier/
 
+[memoCmd](https://fr.wikipedia.org/wiki/Commandes_Unix)
 - Maj  
   sudo apt update  
   sudo apt upgrade  
