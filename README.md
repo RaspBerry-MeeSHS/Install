@@ -4,14 +4,14 @@ https://raspberry-pi.fr/raspberry-pi-sans-ecran-sans-clavier/
 
 [memoCmd](https://fr.wikipedia.org/wiki/Commandes_Unix)
 - Maj  
-  sudo apt update  
-  sudo apt upgrade  
+  ``sudo apt update``  
+  ``sudo apt upgrade``  
 
 -Gestion compte  
-  sudo adduser  
+  ``sudo adduser``  
   [ubuntu doc](https://doc.ubuntu-fr.org/adduser)  
-  sudo usermod -aG sudo nickname  
-  sudo visudo
+  ``sudo usermod -aG sudo nickname``  
+  ``sudo visudo``
 
 - Gestion prompt  
   [zsh]()  
@@ -24,7 +24,7 @@ https://raspberry-pi.fr/raspberry-pi-sans-ecran-sans-clavier/
     - [tuto IP fixe rasp](https://raspberry-pi.fr/ip-locale-fixe/)
     - 0 
   - changer sur chaque poste l'adresse ip du DNS
-  - (si possible) changer le DHCP
+  - (si possible) changer le DHCP  
   ``curl -sSL https://install.pi-hole.net | bash``  
   [Doc](https://docs.pi-hole.net/)
   
