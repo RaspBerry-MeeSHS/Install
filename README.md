@@ -23,9 +23,10 @@ https://raspberry-pi.fr/raspberry-pi-sans-ecran-sans-clavier/
   - avoir definit une plage IP pour chaque utilisation
     - [tuto IP fixe rasp](https://raspberry-pi.fr/ip-locale-fixe/)
     - mettre le routeur 192.168.1.254 en source DNS dans Pi-hole
-      - 0 
-      - 1
-      - 255
+      - |  Ports   |  Utilité |  
+      - |  :----:  |  :----:  |  
+      - |    1     |    1     |
+      - |   254    |   Box    |
   - changer sur chaque poste l'adresse ip du DNS
   - (si possible) changer le DHCP  
   ``curl -sSL https://install.pi-hole.net | bash``  
